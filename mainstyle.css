@@ -1,0 +1,16 @@
+.card {
+    border: 1px solid grey;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 1em;
+    margin: 1em;
+    min-height: 20em;
+    min-width: 15em;
+    box-shadow: 7px 7px 5px 2px black;
+}
+
+.cards-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
